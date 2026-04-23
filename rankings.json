@@ -1,0 +1,10 @@
+{
+  "sources": {
+    "twitter": { "weight": 1.0, "wins": 0, "losses": 0, "last_updated": null },
+    "youtube": { "weight": 1.0, "wins": 0, "losses": 0, "last_updated": null },
+    "reddit": { "weight": 1.0, "wins": 0, "losses": 0, "last_updated": null },
+    "arxiv": { "weight": 1.0, "wins": 0, "losses": 0, "last_updated": null },
+    "producthunt": { "weight": 1.0, "wins": 0, "losses": 0, "last_updated": null },
+    "rss": { "weight": 1.0, "wins": 0, "losses": 0, "last_updated": null }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "eva-research",
+  "version": "0.1.0",
+  "description": "Auto-research loop: ingests signals from X, YouTube, Reddit, arxiv, Product Hunt, and newsletters, then produces weekly strategy memos for Eva.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "run-weekly": "tsx scripts/run-weekly.ts",
+    "record-result": "tsx scripts/record-result.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src scripts tests"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "fast-xml-parser": "^4.4.0",
+    "js-yaml": "^4.1.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  }
+}

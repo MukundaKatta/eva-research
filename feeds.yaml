@@ -1,0 +1,25 @@
+# Starter RSS / newsletter feeds ingested every week.
+# Each entry needs a name (used in evidence attribution) and url.
+# Add or remove entries freely — each is one adapter call.
+
+feeds:
+  - name: "Stratechery"
+    url: "https://stratechery.com/feed/"
+  - name: "The Diff"
+    url: "https://diff.substack.com/feed"
+  - name: "Lenny's Newsletter"
+    url: "https://www.lennysnewsletter.com/feed"
+  - name: "Every"
+    url: "https://every.to/feed"
+  - name: "Hacker News Best"
+    url: "https://hnrss.org/best"
+  - name: "Indie Hackers Blog"
+    url: "https://www.indiehackers.com/feed.xml"
+  - name: "Product Hunt Daily"
+    url: "https://www.producthunt.com/feed"
+  - name: "Matt Rickard"
+    url: "https://matt-rickard.com/rss"
+  - name: "Paul Graham Essays"
+    url: "http://www.paulgraham.com/rss.html"
+  - name: "Rex Woodbury"
+    url: "https://digitalnative.substack.com/feed"

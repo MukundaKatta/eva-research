@@ -15,7 +15,7 @@
     "lint": "eslint src scripts tests"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.39.0",
+    "@anthropic-ai/sdk": "^0.105.0",
     "fast-xml-parser": "^4.4.0",
     "js-yaml": "^4.1.0",
     "zod": "^3.23.0"
